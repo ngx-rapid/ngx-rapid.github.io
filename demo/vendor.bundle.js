@@ -1,5 +1,77 @@
 webpackJsonp(["vendor"],{
 
+/***/ "../../../../@ngx-rapid/crud/dist/@ngx-rapid/crud.es5.js":
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+/* unused harmony export CrudComponent */
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return CrudModule; });
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__("../../../core/esm5/core.js");
+
+var Field = (function () {
+    /**
+     * @param {?} name
+     */
+    function Field(name) {
+        this.name = name;
+    }
+    return Field;
+}());
+/**
+ * This is sample rapid-crud component :)
+ *
+ * Example of usage:
+ * <example-url>http://localhost/demo/mysample.component.html</example-url>
+ * <example-url>/demo/mysample.component.html</example-url>
+ */
+var CrudComponent = (function () {
+    function CrudComponent() {
+        this.field = new Field('test');
+    }
+    return CrudComponent;
+}());
+CrudComponent.decorators = [
+    { type: __WEBPACK_IMPORTED_MODULE_0__angular_core__["n" /* Component */], args: [{
+                selector: 'rapid-crud',
+                template: "\n      <p>crud component</p>\n      <p>change 01</p>\n      <p>{{field.name}}</p>\n    ",
+                styles: ["\n\n    "]
+            },] },
+];
+/**
+ * @nocollapse
+ */
+CrudComponent.ctorParameters = function () { return []; };
+/**
+ * This is sample documentation
+ */
+var CrudModule = (function () {
+    function CrudModule() {
+    }
+    return CrudModule;
+}());
+CrudModule.decorators = [
+    { type: __WEBPACK_IMPORTED_MODULE_0__angular_core__["I" /* NgModule */], args: [{
+                declarations: [
+                    CrudComponent
+                ],
+                imports: [],
+                exports: [CrudComponent],
+                providers: []
+            },] },
+];
+/**
+ * @nocollapse
+ */
+CrudModule.ctorParameters = function () { return []; };
+/**
+ * Generated bundle index. Do not edit.
+ */
+
+//# sourceMappingURL=crud.es5.js.map
+
+
+/***/ }),
+
 /***/ "../../../../css-loader/lib/css-base.js":
 /***/ (function(module, exports) {
 
