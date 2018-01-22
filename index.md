@@ -1,1 +1,0 @@
-Hello, this is documentation for the version: 0.0.0
