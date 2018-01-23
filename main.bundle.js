@@ -19814,6 +19814,51 @@ CrudComponent.decorators = [
  * @nocollapse
  */
 CrudComponent.ctorParameters = function () { return []; };
+var Field$1 = (function () {
+    /**
+     * @param {?} name
+     */
+    function Field(name) {
+        this.name = name;
+    }
+    return Field;
+}());
+var FormComponent = (function () {
+    function FormComponent() {
+        this.field = new Field$1('test');
+    }
+    return FormComponent;
+}());
+FormComponent.decorators = [
+    { type: __WEBPACK_IMPORTED_MODULE_0__angular_core__["a" /* Component */], args: [{
+                selector: 'rapid-form',
+                template: "\n      <p>form component</p>\n      <p>change 01</p>\n      <p>{{field.name}}</p>\n    ",
+                styles: ["\n\n    "]
+            },] },
+];
+/**
+ * @nocollapse
+ */
+FormComponent.ctorParameters = function () { return []; };
+var FormModule = (function () {
+    function FormModule() {
+    }
+    return FormModule;
+}());
+FormModule.decorators = [
+    { type: __WEBPACK_IMPORTED_MODULE_0__angular_core__["b" /* NgModule */], args: [{
+                declarations: [
+                    FormComponent
+                ],
+                imports: [],
+                exports: [FormComponent],
+                providers: []
+            },] },
+];
+/**
+ * @nocollapse
+ */
+FormModule.ctorParameters = function () { return []; };
 /**
  * This is sample documentation
  */
@@ -19827,7 +19872,7 @@ CrudModule.decorators = [
                 declarations: [
                     CrudComponent
                 ],
-                imports: [],
+                imports: [FormModule],
                 exports: [CrudComponent],
                 providers: []
             },] },

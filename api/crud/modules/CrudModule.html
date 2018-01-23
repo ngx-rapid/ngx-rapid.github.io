@@ -341,6 +341,7 @@
 
 import {CrudComponent} from &quot;./crud.component&quot;;
 
+import {FormModule} from &#x27;@ngx-rapid/form&#x27;;
 /**
  * This is sample documentation
  */
@@ -349,7 +350,7 @@ import {CrudComponent} from &quot;./crud.component&quot;;
   declarations: [
     CrudComponent
   ],
-  imports: [],
+  imports: [FormModule],
   exports: [CrudComponent],
   providers: []
 })
