@@ -19806,7 +19806,7 @@ var CrudComponent = (function () {
 CrudComponent.decorators = [
     { type: __WEBPACK_IMPORTED_MODULE_0__angular_core__["a" /* Component */], args: [{
                 selector: 'rapid-crud',
-                template: "\n      <p>crud component</p>\n      <p>change 01</p>\n      <p>{{field.name}}</p>\n    ",
+                template: "\n      <p>crud component</p>\n      <p>change 01</p>\n      <p>{{field.name}}</p>\n      <p>Rapid form component from crud component</p>\n      <p>\n      <rapid-form></rapid-form>\n      </p>\n    ",
                 styles: ["\n\n    "]
             },] },
 ];
