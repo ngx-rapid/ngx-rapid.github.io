@@ -3,7 +3,7 @@
     <head>
         <meta charset="utf-8">
         <meta http-equiv="x-ua-compatible" content="ie=edge">
-        <title>@ngx-rapid/form documentation</title>
+        <title>@ngx-rapid/core documentation</title>
         <meta name="description" content="">
         <meta name="viewport" content="width=device-width, initial-scale=1">
 
@@ -13,7 +13,7 @@
     <body>
 
         <div class="navbar navbar-default navbar-fixed-top visible-xs">
-            <a href="../" class="navbar-brand">@ngx-rapid/form documentation</a>
+            <a href="../" class="navbar-brand">@ngx-rapid/core documentation</a>
             <button type="button" class="btn btn-default btn-menu fa fa-bars" id="btn-menu"></button>
         </div>
 
@@ -26,7 +26,7 @@
                 <ul class="list">
             
                     <li class="title">
-                        <a href="../index.html">@ngx-rapid/form documentation</a>
+                        <a href="../index.html">@ngx-rapid/core documentation</a>
                     </li>
             
                     <li class="divider"></li>
@@ -65,7 +65,7 @@
                                 id="xs-modules-links"
                             >
                                 <li class="link">
-                                    <a href="../modules/FormModule.html" >FormModule</a>
+                                    <a href="../modules/SampleModule.html" >SampleModule</a>
                                 </li>
                         </ul>
                     </li>
@@ -82,12 +82,28 @@
                                 id="xs-components-links"
                             >
                                 <li class="link">
-                                    <a href="../components/FormComponent.html"  data-type="entity-link" class="active" >FormComponent</a>
+                                    <a href="../components/SampleComponent.html"  data-type="entity-link" class="active" >SampleComponent</a>
                                 </li>
                         </ul>
                     </li>
             
             
+                    <li class="chapter">
+                        <div class="simple menu-toggler" data-toggle="collapse"
+                                data-target="#xs-classes-links"
+                            >
+                            <span class="fa fa-file-code-o"></span>
+                            <span>Classes</span>
+                            <span class="fa fa-angle-down"></span>
+                        </div>
+                        <ul class="links collapse "
+                                id="xs-classes-links"
+                            >
+                                <li class="link">
+                                    <a href="../classes/Field.html" >Field</a>
+                                </li>
+                        </ul>
+                    </li>
             
             
             
@@ -113,7 +129,7 @@
                        <ul class="list">
                    
                            <li class="title">
-                               <a href="../index.html">@ngx-rapid/form documentation</a>
+                               <a href="../index.html">@ngx-rapid/core documentation</a>
                            </li>
                    
                            <li class="divider"></li>
@@ -155,7 +171,7 @@
                                        id="modules-links"
                    >
                                        <li class="link">
-                                           <a href="../modules/FormModule.html" >FormModule</a>
+                                           <a href="../modules/SampleModule.html" >SampleModule</a>
                                        </li>
                                </ul>
                            </li>
@@ -172,12 +188,28 @@
                                        id="components-links"
                    >
                                        <li class="link">
-                                           <a href="../components/FormComponent.html"  data-type="entity-link" class="active" >FormComponent</a>
+                                           <a href="../components/SampleComponent.html"  data-type="entity-link" class="active" >SampleComponent</a>
                                        </li>
                                </ul>
                            </li>
                    
                    
+                           <li class="chapter">
+                               <div class="simple menu-toggler" data-toggle="collapse"
+                                       data-target="#classes-links"
+                   >
+                                   <span class="fa fa-file-code-o"></span>
+                                   <span>Classes</span>
+                                   <span class="fa fa-angle-down"></span>
+                               </div>
+                               <ul class="links collapse "
+                                       id="classes-links"
+                   >
+                                       <li class="link">
+                                           <a href="../classes/Field.html" >Field</a>
+                                       </li>
+                               </ul>
+                           </li>
                    
                    
                    
@@ -202,7 +234,7 @@
 
 <ol class="breadcrumb">
   <li>Components</li>
-  <li>FormComponent</li>
+  <li>SampleComponent</li>
 </ol>
 
 <ul class="nav nav-tabs" role="tablist">
@@ -227,7 +259,7 @@
     <h3>File</h3>
 </p>
 <p class="comment">
-    <code>src/form/form.component.ts</code>
+    <code>src/sample/sample.component.ts</code>
 </p>
 
 
@@ -252,19 +284,19 @@
 
             <tr>
                 <td class="col-md-3">selector</td>
-                <td class="col-md-9"><code>rapid-form</code></td>
+                <td class="col-md-9"><code>rapid-core-sample</code></td>
             </tr>
 
             <tr>
                 <td class="col-md-3">styleUrls</td>
-                <td class="col-md-9"><code>form.component.scss</code></td>
+                <td class="col-md-9"><code>sample.component.scss</code></td>
             </tr>
 
 
 
             <tr>
                 <td class="col-md-3">templateUrl</td>
-                <td class="col-md-9"><code>./form.component.html</code></td>
+                <td class="col-md-9"><code>./sample.component.html</code></td>
             </tr>
 
 
@@ -272,27 +304,6 @@
     </table>
 </section>
 
-    <section>
-        <h3 id="index">Index</h3>
-        <table class="table table-sm table-bordered index-table">
-            <tbody>
-                <tr>
-                    <td class="col-md-4">
-                        <h6><b>Properties</b></h6>
-                    </td>
-                </tr>
-                <tr>
-                    <td class="col-md-4">
-                        <ul class="index-list">
-                            <li>
-                                <a href="#field">field</a>
-                            </li>
-                        </ul>
-                    </td>
-                </tr>
-            </tbody>
-        </table>
-    </section>
 
 
 
@@ -300,68 +311,30 @@
 
 
 
-    <section>
-        
-            <h3 id="inputs">
-                Properties
-            </h3>
-            <table class="table table-sm table-bordered">
-                <tbody>
-                    <tr>
-                        <td class="col-md-4">
-                            <a name="field"></a>
-                            <span class="name">
-                                <b>
-                                field
-                                </b>
-                                <a href="#field"><span class="fa fa-link"></span></a>
-                            </span>
-                        </td>
-                    </tr>
-                    <tr>
-                        <td class="col-md-4">
-                            <code>field:     <code></code>
-    </code>
-                        </td>
-                    </tr>
-                        <tr>
-                            <td class="col-md-4">
-                                <i>Default value : </i><code>new Field(&#x27;test&#x27;)</code>
-                            </td>
-                        </tr>
-                            <tr>
-                                <td class="col-md-4">
-                                    <div class="io-line">Defined in <a href="" data-line="10" class="link-to-prism">src/form/form.component.ts:10</a></div>
-                                </td>
-                            </tr>
-    
-    
-                </tbody>
-            </table>
-    </section>
 
 </div>
 
 
     <div class="tab-pane fade tab-source-code" id="c-source">
-        <pre class="line-numbers"><code class="language-typescript">import {Component} from &#x27;@angular/core&#x27;;
-import {Field} from &quot;@ngx-rapid/core&quot;;
+        <pre class="line-numbers"><code class="language-typescript">import { Component } from &#x27;@angular/core&#x27;;
 
 @Component({
-    selector: &#x27;rapid-form&#x27;,
-    templateUrl: &#x27;./form.component.html&#x27;,
-    styleUrls: [&#x27;./form.component.scss&#x27;]
+  selector: &#x27;rapid-core-sample&#x27;,
+  templateUrl: &#x27;./sample.component.html&#x27;,
+  styleUrls: [&#x27;./sample.component.scss&#x27;]
 })
-export class FormComponent {
-    field &#x3D; new Field(&#x27;test&#x27;)
+export class SampleComponent {
 }
 </code></pre>
     </div>
 
     <div class="tab-pane fade" id="c-templateData">
-        <pre class="line-numbers"><code class="language-html">&lt;p&gt;form component&lt;/p&gt;
-&lt;p&gt;change 01&lt;/p&gt;
-&lt;p&gt;{{field.name}}&lt;/p&gt;</code></pre>
+        <pre class="line-numbers"><code class="language-html">&lt;p&gt;Sample component&lt;/p&gt;
+&lt;p&gt;change 04&lt;/p&gt;
+&lt;h1&gt;
+    &lt;ng-content&gt;&lt;/ng-content&gt;
+&lt;/h1&gt;
+</code></pre>
     </div>
 
     <div class="tab-pane fade" id="c-tree">
@@ -387,10 +360,10 @@ export class FormComponent {
 <script src="../js/libs/htmlparser.js"></script>
 <script src="../js/libs/deep-iterator.js"></script>
 <script>
-        var COMPONENT_TEMPLATE = '<div><p>form component</p><p>change 01</p><p>{{field.name}}</p></div>'
-    var COMPONENTS = [{'name': 'FormComponent', 'selector': 'rapid-form'}];
+        var COMPONENT_TEMPLATE = '<div><p>Sample component</p><p>change 04</p><h1>    <ng-content></ng-content></h1></div>'
+    var COMPONENTS = [{'name': 'SampleComponent', 'selector': 'rapid-core-sample'}];
     var DIRECTIVES = [];
-    var ACTUAL_COMPONENT = {'name': 'FormComponent'};
+    var ACTUAL_COMPONENT = {'name': 'SampleComponent'};
 </script>
 <script src="../js/tree.js"></script>
 
