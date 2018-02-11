@@ -59769,7 +59769,7 @@ var MaterialModule = (function () {
 /***/ "../../../../../src/app/shared/navbar/navbar.component.html":
 /***/ (function(module, exports) {
 
-module.exports = "<mat-toolbar color=\"primary\" class=\"mat-elevation-z2\">\n  <a mat-button routerLink=\"\">\n    <img style=\"height: 26px; margin: 0 4px 3px 0;\"\n         src=\"https://material.angular.io/assets/img/homepage/angular-white-transparent.svg\" alt=\"\">\n    NGX-RAPID <span class=\"version\">0.0.1-50</span>\n  </a>\n\n  <a mat-button routerLink=\"guide\">Guides</a>\n  <a mat-button routerLink=\"examples/\">Examples</a>\n\n  <span class=\"spacer\" [style.flex]=\"'1 1 auto'\"></span>\n\n  <a mat-button href=\"https://github.com/ngx-rapid\">\n    <img style=\"height: 26px;\" src=\"https://material.angular.io/assets/img/homepage/github-circle-white-transparent.svg\" alt=\"\">\n    GitHub\n  </a>\n</mat-toolbar>\n"
+module.exports = "<mat-toolbar color=\"primary\" class=\"mat-elevation-z2\">\n  <a mat-button routerLink=\"\">\n    <img style=\"height: 26px; margin: 0 4px 3px 0;\"\n         src=\"https://material.angular.io/assets/img/homepage/angular-white-transparent.svg\" alt=\"\">\n    NGX-RAPID <span class=\"version\">0.0.1-30.1</span>\n  </a>\n\n  <a mat-button routerLink=\"guide\">Guides</a>\n  <a mat-button routerLink=\"examples/\">Examples</a>\n\n  <span class=\"spacer\" [style.flex]=\"'1 1 auto'\"></span>\n\n  <a mat-button href=\"https://github.com/ngx-rapid\">\n    <img style=\"height: 26px;\" src=\"https://material.angular.io/assets/img/homepage/github-circle-white-transparent.svg\" alt=\"\">\n    GitHub\n  </a>\n</mat-toolbar>\n"
 
 /***/ }),
 
